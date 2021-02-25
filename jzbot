@@ -1,0 +1,17 @@
+#webscrape for chatbot(cbjz1)
+
+port requests 
+import json
+from bs4 import BeautifulSoup 
+
+r = requests.get('https://www.nytimes.com/interactive/2017/11/29/t-magazine/jay-z-dean-baquet-interview.html')
+soup = BeautifulSoup(r.text, 'html.parser')
+
+results = soup.find_all('p', attrs={'class':'g-body'})
+tables = [str(x.text) for x in results]
+json_text = json.dumps(tables)
+
+
+with open('jayz.json', 'w') as json_file:
+	json_file.write(json_text)
+
