@@ -1,0 +1,46 @@
+# successful bs4 / requests / urllib save to a jsonfile. 
+
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+import json
+
+
+all_jobs = []
+
+for page in range(1, 2):
+    url = "https://stackoverflow.com/questions?tab=unanswered&page={}".format(page)
+    html = urlopen(url)
+    soup = BeautifulSoup(html,"html.parser")
+    Container = soup.find_all("div", {"class":"question-summary"})
+    for i in Container:
+        try:
+            title = i.find("a", {"class":"question-hyperlink"}).get_text() # .get_text(strip=True)
+            det = i.find("div", {"class":"excerpt"}).get_text()
+            tags = i.find("div",{"class":"tags"}).get_text()
+            votes = i.find("div",{"class":"votes"}).get_text()
+            ans = i.find("div",{"class":"status"}).get_text()
+            views = i.find("div",{"class":"views"}).get_text()
+            time = i.find("span",{"class":"relativetime"}).get_text()
+
+            print(title, det, tags, votes, ans, views, time )
+
+            job_dict = {}
+            job_dict['Title'] = title
+            job_dict['Description'] = det
+            job_dict['Tags'] = tags
+            job_dict['Votes'] = votes
+            job_dict['Answers'] = ans
+            job_dict['Views'] = views
+            job_dict['Time'] = time
+
+            all_jobs.append(job_dict)
+
+        except AttributeError as ex:
+            print('Error:', ex)
+
+# --- after loop ---
+
+f = open('outputs.json', 'w')
+#f.write(json.dumps(all_jobs)) # all in one line
+f.write(json.dumps(all_jobs, indent=2))
+f.close()
