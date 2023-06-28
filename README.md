@@ -30,7 +30,8 @@ How To:
     - Additional Subatomic particle interactions (neutrinos, bosons, etc).
 
 5. Additional study cases
-    - Black Opal - learn more quantum computing. 
+    - Black Opal - learn more quantum computing.
+    - https://patents.google.com/?inventor=Salvatore+Pais
   
 
 Protoypes: 
