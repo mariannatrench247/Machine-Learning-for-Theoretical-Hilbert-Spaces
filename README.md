@@ -34,6 +34,33 @@ How To:
     - https://patents.google.com/?inventor=Salvatore+Pais
   
 
+
+Readying Protons for EM Field generator 
+    - why Protons?
+
+    - How to Isolate Protons? 
+        - Hydrogen (1 proton/1 electron). Strong Electric Field will split electron off from proton
+    - Hydrogen Gas 
+        - pump energy into gas to ionise it. Once hydrogen gas is ionized, there will be free protons & electrons 
+        - separate protons & electrons using magnetic field 
+
+
+
+Proton g-factor (https://www.newscientist.com/article/mg21028094-200-lonely-spun-out-proton-reveals-magnetic-secret/)
+    * Jochen Walz 
+
+    1. shoot electrons at substance which release protons (then are trapped using magnets)
+    2. Let Proton escape until one left - magnet causes lone proton to precess at frequency that depends on G-Factor 
+    3. Deduce frequency using radiowaves - radiowavs flipped orientations of proton's magnet only when frequnces matches precession frequency 
+
+How to make Protons https://www.fnal.gov/pub/science/inquiring/questions/jackie.html (LOL)
+     Full Proof Method: stripping electron from hydrogen atom though IONIZATION
+    
+    
+
+G-Factor & Fully Quantum Measurements of Electron Magnetic Momentum
+
+    https://indico.cern.ch/event/127522/contributions/108716/attachments/83026/118948/odom_g-2.pdf
 Protoypes: 
 Infancy phase 1: 
 Electromagnetic Field Generator( Rudimentary)
