@@ -55,6 +55,15 @@ Proton g-factor (https://www.newscientist.com/article/mg21028094-200-lonely-spun
 
 How to make Protons https://www.fnal.gov/pub/science/inquiring/questions/jackie.html (LOL)
      Full Proof Method: stripping electron from hydrogen atom though IONIZATION
+
+    1. Obtain proton -> strip electron from Hydrogen Atom (1 proton/ 1 electron). THRU PROCESS of IONIZATION
+    2. Take Hyrogen and add extra electron (results in negative hydrogen ions)
+    3. Positive Voltage used to accelerate ions because positive volatge attracts negative ions 
+    4. Electrons are accelerated to energy  - 75K electron volts (not alot - energy in electron beam found inf TV picture tube)
+    5. Cockcroft-Walton - negative ions enter LINAC/ LINEAR ACCELERATOR - accelerated to energy of 400 million electron volts 
+    6. Ions - pass thru carbon foil that strips off extra eelctrons & permits protons to pass through 
+    7. protons continue to be acclerated by passing throguh booster, main injector and tevatron 
+    8. final energy -> 0.9 to 1 trillion electron volts beffore collectoned with antiprootns
     
     
 
